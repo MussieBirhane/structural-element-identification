@@ -1,0 +1,10 @@
+# this program converts numpy array vectors to images
+# the user should make sure the .npy file is on the same Python directory
+
+import numpy as np
+from matplotlib import pyplot as plt
+
+img_array = np.load('task1_X_test.npy')
+
+plt.imshow(img_array, cmap='gray')
+plt.show()
