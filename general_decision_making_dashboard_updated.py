@@ -137,7 +137,7 @@ with image_classification:
     st.write('This criteria is supplemented with an automated image classification CNN tool. Images can be uploaded and parameters '
              'related to corrosion, connection types and damage status are evaluated automatically.')
 
-    input_image = st.radio('How would you like to perform the structural visual inspection?', ('I do have image files', 'I do not have image files'))
+    input_image = st.radio('How would you like to perform the structural visual inspection?', ('I do have image files', 'I do not have image files'), index=1)
 
     if input_image == 'I do have image files':
 
