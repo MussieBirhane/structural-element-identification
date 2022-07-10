@@ -182,14 +182,12 @@ pydantic==1.8.2
 pydeck==0.7.1
 pymongo==3.12.3
 pyparsing==2.4.7
-pypiwin32==223
 pyrsistent==0.18.0
 pysmi==0.3.4
 pysnmp==4.4.12
 python-dateutil==2.8.1
 pytz==2019.3
 pytz-deprecation-shim==0.1.0.post0
-pywin32==223
 pyzmq==22.3.0
 redis==3.5.3
 regex==2021.10.23
