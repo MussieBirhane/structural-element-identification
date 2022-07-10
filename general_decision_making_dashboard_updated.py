@@ -103,14 +103,14 @@ with logistic_feasibility:
 
     # st.select_slider('Is the element easy to handle?', options=['very easy', 'easy', 'difficult', 'very difficult'], index=1)
     item_weight = selec_col.selectbox('Weight of the structural element',
-                               options=['very light [< 0.1 ton]', 'light [0.1 - 0.2 ton]',
-                                        'heavy [0.2 - 0.5 ton]', 'very heavy [> 0.5 ton]'], index=1)
+                               options=['Very light [< 0.1 ton]', 'Light [0.1 - 0.2 ton]',
+                                        'Heavy [0.2 - 0.5 ton]', 'Very heavy [> 0.5 ton]'], index=1)
 
-    if item_weight == 'very light [< 0.1 ton]':
+    if item_weight == 'Very light [< 0.1 ton]':
         item_weight_value = 1
-    elif item_weight == 'light [0.1 - 0.2 ton]':
+    elif item_weight == 'Light [0.1 - 0.2 ton]':
         item_weight_value = 2
-    elif item_weight == 'heavy [0.2 - 0.5 ton]':
+    elif item_weight == 'Heavy [0.2 - 0.5 ton]':
         item_weight_value = 3
     else:
         item_weight_value = 4
