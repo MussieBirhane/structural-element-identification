@@ -24,3 +24,7 @@ decision-makers in the built environment.
 The method developed in this repository can also be extended to other building
 types to further facilitate the reuse of components and materials widely used
 in the industry.
+
+# How to use the app
+# Decision-making framework
+# How to run
